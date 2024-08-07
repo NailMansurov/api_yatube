@@ -45,7 +45,11 @@ python3 manage.py runserver
 ```
 
 # Примеры запросов к API
-POST ```/api/v1/jwt/create/```: Получить токен аутентификации. Отправьте свои username и password.
+POST
+```
+/api/v1/jwt/create/
+```
+Получить токен аутентификации. Отправьте свои username и password.
 GET /api/v1/posts/: Получить список всех постов.
 POST /api/v1/posts/: Создать новый пост.
 GET /api/v1/posts/{post_id}/: Получить подробную информацию о посте.
